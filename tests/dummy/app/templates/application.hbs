@@ -1,5 +1,22 @@
 <h2 id="title">Welcome to Ember</h2>
 
 
-{{basic-button name="terrance" value="terrance" type='terrance' target="_blank"}}
+{{basic-button 
+  name="terrance" 
+  value="terrance" 
+  type='terrance' 
+  target="_blank"
+  autocomplete="off"
+}}
+
+{{#basic-button 
+  name="terrance" 
+  value="terrance" 
+  type='terrance' 
+  target="_blank"
+  autocomplete="off"
+}}
+  Hello World!
+{{/basic-button}}
+
 {{outlet}}

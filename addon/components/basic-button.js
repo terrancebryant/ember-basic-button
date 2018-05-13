@@ -10,8 +10,8 @@ export default Component.extend({
   classNames: ['basic-button'],
 
   attributeBindings: ['type', 'disabled','name', 'title', 'target', 'value', 'autocomplete'],
-  
-  autocomplete: 'off',
+
+  autocomplete: null,
 
   name: null,
 
@@ -23,9 +23,9 @@ export default Component.extend({
 
   value: null,
 
-  click(event) {
+  click(event, args) {
     if(get(this, 'action')){
-      get(this, 'action')(event)
+      get(this, 'action')(event, args)
     }
   }
 });
