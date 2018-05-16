@@ -1,4 +1,4 @@
-![Build Status](https://travis-ci.org/terrancebryant/ember-basic-button.svg?branch=master)](https://travis-ci.org/terrancebryant/ember-basic-button)
+[![Build Status](https://travis-ci.org/terrancebryant/ember-basic-button.svg?branch=master)](https://travis-ci.org/terrancebryant/ember-basic-button)
 
 ember-basic-button
 ==============================================================================
