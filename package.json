@@ -1,9 +1,13 @@
 {
   "name": "ember-basic-button",
-  "version": "0.0.0-alpha.0",
+  "version": "0.0.0-alpha.1",
   "description": "Simple button",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "button",
+    "simple button",
+    "basic button",
+    "btn"
   ],
   "license": "MIT",
   "author": "Terrance Bryant",

@@ -1,3 +1,5 @@
+![Build Status](https://travis-ci.org/terrancebryant/ember-basic-button.svg?branch=master)](https://travis-ci.org/terrancebryant/ember-basic-button)
+
 ember-basic-button
 ==============================================================================
 
@@ -14,7 +16,28 @@ ember install ember-basic-button
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+### Standard Usage
+```
+{{basic-button 
+  name="play button" 
+  value="Play" 
+  type="button" 
+  autocomplete="off"
+  action=(action 'play')
+}}
+```
+### Block Usage
+```
+{{#basic-button 
+  name="Play Button" 
+  value="play" 
+  type="button" 
+  autocomplete="off"
+  action=(action 'play')
+}}
+  Play
+{{/basic-button}}
+```
 
 
 Contributing
